@@ -7,7 +7,7 @@ import { FiSend } from "react-icons/fi";
 
 export const Post = (props) => {
 
-    const { id, user, profile_picture, photo, description, likes } = props;
+    const { id, user, profile_picture, photo, description, likes, comment_username, comment } = props;
 
     return (
         <div className="individualPost">
@@ -30,6 +30,10 @@ export const Post = (props) => {
                 <div className="descriptionRow">
                     <h2>{user}</h2>
                     <h3>{description}</h3>
+                </div>
+                <div className="commentRow">
+                    <h2>{comment_username}</h2>
+                    <h3>{comment}</h3>
                 </div>
             </div>
         </div>

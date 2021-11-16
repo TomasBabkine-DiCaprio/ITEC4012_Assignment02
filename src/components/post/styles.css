@@ -12,7 +12,7 @@
 }
 
 .individualPost .user img {
-    max-width: 40px;
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
@@ -36,18 +36,18 @@
     padding-right: 10px;
 }
 
-.individualPost .commentSection .likesRow h2,  .descriptionRow h2,  .descriptionRow h3 {
+.individualPost .commentSection .likesRow h2,  .descriptionRow h2,  .descriptionRow h3, .commentRow h2,  .commentRow h3 {
     color: black;
     font-size: 0.8em;
     margin-left: 15px;
     margin-block-start: 0.2em;
 }
 
-.descriptionRow {
-    display: inline-flex;
+.descriptionRow, .commentRow {
+    display: flex;
 }
 
-.descriptionRow h3 {
+.descriptionRow h3, .commentRow h3 {
     font-weight: 400;
     margin-left: 6px;
 }

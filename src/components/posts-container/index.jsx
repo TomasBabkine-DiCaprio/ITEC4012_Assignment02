@@ -17,7 +17,7 @@ export const PostsContainer = () => {
         <div className="postsContainer">
             {
                 posts.map( (post) => (
-                    <Post key={post.id} user={post.user} profile_picture={post.profile_picture} photo={post.photo} description={post.description} likes={post.likes}></Post>
+                    <Post key={post.id} user={post.user} profile_picture={post.profile_picture} photo={post.photo} description={post.description} likes={post.likes} comment_username={post.comment_username} comment={post.comment} ></Post>
                 ))
             }
         </div>

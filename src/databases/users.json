@@ -1,16 +1,30 @@
 [
     {
         "id": 1,
-        "first_name": "Roald",
-        "last_name": "Dahl",
-        "handle": "roalddahl",
-        "profile_picture": "https://www.biography.com/.image/t_share/MTQxNDAyNjQ0MzAzMzI1MDc0/roald_dahl_getty_images_tony_evansgetty_images_108874289_croppedjpg.jpg"
+        "first_name": "Salvador",
+        "last_name": "Dali",
+        "handle": "salvadordali",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/2/27/Salvador_Dali_NYWTS.jpg"
     },
     {
         "id": 2,
-        "first_name": "Tomas",
-        "last_name": "Babkine-Di Caprio",
-        "handle": "tomasbabkinedicaprio",
-        "profile_picture": "https://ychef.files.bbci.co.uk/976x549/p03lcphh.jpg"
+        "first_name": "Vincent",
+        "last_name": "Van Gogh",
+        "handle": "vincentvangogh",
+        "profile_picture": "https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY2NTIzMzc4MTI2MDM4MjM5/vincent_van_gogh_self_portrait_painting_musee_dorsay_via_wikimedia_commons_promojpg.jpg"
+    },
+    {
+        "id": 3,
+        "first_name": "Pablo",
+        "last_name": "Picasso",
+        "handle": "pablopicasso",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Portrait_de_Picasso%2C_1908.jpg"
+    },
+    {
+        "id": 4,
+        "first_name": "Edvard",
+        "last_name": "Munch",
+        "handle": "edvardmunch",
+        "profile_picture": "https://www.biography.com/.image/t_share/MTg0OTgxMjIwNzM0NjA4ODcx/gettyimages-600031727jpg--.jpg"
     }
 ]
