@@ -23,10 +23,6 @@ export const StoriesContainer = () => {
         setUsers(userData);
     }
 
-    users.map( (user) => {
-        console.log(user.profile_picture);
-    })
-
     return (
         <div className="storiesContainer">
             <ul>
