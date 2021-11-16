@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+
+    background-color: white;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.navIcons {
+    padding-right: 40px;
+}
+
+.navIcons svg {
+    padding-right: 10px;
+}
