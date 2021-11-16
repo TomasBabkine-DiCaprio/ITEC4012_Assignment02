@@ -28,7 +28,7 @@ export const StoriesContainer = () => {
             <ul>
                 {
                     users.map( (user) => (
-                        <Story id={user.id} profilePicture={user.profile_picture} handle={user.handle}></Story>
+                        <Story key={user.id} profilePicture={user.profile_picture} handle={user.handle}></Story>
                     ))
                 }
             </ul>

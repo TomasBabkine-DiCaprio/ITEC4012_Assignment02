@@ -1,0 +1,53 @@
+.individualPost {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background: white;
+    border-radius: 2px;
+    margin-bottom: 30px
+}
+
+.individualPost .user {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.individualPost .user img {
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.individualPost .user h1 {
+    color: black;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+}
+
+.individualPost .picture img {
+    max-width: 698px;
+}
+
+.individualPost .commentSection .iconRow {
+    padding: 10px;
+}
+.individualPost .commentSection .iconRow svg {
+    padding-right: 10px;
+}
+
+.individualPost .commentSection .likesRow h2,  .descriptionRow h2,  .descriptionRow h3 {
+    color: black;
+    font-size: 0.8em;
+    margin-left: 15px;
+    margin-block-start: 0.2em;
+}
+
+.descriptionRow {
+    display: inline-flex;
+}
+
+.descriptionRow h3 {
+    font-weight: 400;
+    margin-left: 6px;
+}
