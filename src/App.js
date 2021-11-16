@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 import {
   BrowserRouter as Router,
-  Routes,
-  Route
+  Switch,
+  Route,
 } from "react-router-dom";
 
+// Components
 import { HomePage } from './components/pages/home-page';
 import { Navbar } from './components/navbar/index';
 
@@ -16,12 +16,12 @@ function App() {
       <Router>
 
         <Navbar />
-
-        <Routes>
+        
+        <Switch>
           <Route exact path="/">
-            <HomePage></HomePage>
+          <HomePage></HomePage>
           </Route>
-        </Routes>
+        </Switch>
 
       </Router>
     </div>

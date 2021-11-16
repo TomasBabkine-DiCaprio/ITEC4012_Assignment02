@@ -1,9 +1,11 @@
 import "./styles.css";
 
 // Components
-import { Navbar } from "../../navbar";
+import { StoriesContainer } from "../../stories-container";
 
 export const HomePage = () => {
-
-
+    
+    return (
+        <StoriesContainer />
+    )
 }

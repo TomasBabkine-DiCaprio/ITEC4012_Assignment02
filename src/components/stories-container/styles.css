@@ -1,0 +1,33 @@
+.storiesContainer {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background: white;
+    margin: 30px;
+    border-radius: 2px;
+}
+
+.storiesContainer ul {
+    display: inline-flex;
+    list-style-type: none;
+    display: inline-flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+.storiesContainer ul li {
+    padding: 8px;
+}
+
+.storiesContainer ul li img {
+    display: block;
+    margin: 0 auto;
+
+    max-width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    border: 3px solid transparent;
+    background: linear-gradient(rgb(0,143,104), rgb(250,224,66)) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box;
+}
