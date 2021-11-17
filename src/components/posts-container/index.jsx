@@ -9,9 +9,6 @@ import postData from "./../../databases/posts.json";
 export const PostsContainer = () => {
 
     const posts = postData;
-    posts.map( (post) => {
-        console.log(post.id);
-    } );
 
     return (
         <div className="postsContainer">

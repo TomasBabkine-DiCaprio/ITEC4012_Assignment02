@@ -19,6 +19,10 @@
 }
 
 .navIcons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
     padding-right: 40px;
 }
 
