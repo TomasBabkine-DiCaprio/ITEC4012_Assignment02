@@ -5,6 +5,9 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 
+// Components
+import { ProfilePicture } from "../profile-picture";
+
 export const Post = (props) => {
 
     const { id, user, profile_picture, photo, description, likes, comment_username, comment } = props;
@@ -12,7 +15,7 @@ export const Post = (props) => {
     return (
         <div className="individualPost">
             <div className="user">
-                <img src={profile_picture}></img>
+                <ProfilePicture source={ profile_picture } type="profile_picture posts"></ProfilePicture>
                 <h1>{user}</h1>
             </div>
             <div className="picture">

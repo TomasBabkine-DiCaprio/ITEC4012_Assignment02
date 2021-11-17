@@ -26,5 +26,19 @@
         "last_name": "Munch",
         "handle": "edvardmunch",
         "profile_picture": "https://www.biography.com/.image/t_share/MTg0OTgxMjIwNzM0NjA4ODcx/gettyimages-600031727jpg--.jpg"
+    },
+    {
+        "id": 5,
+        "first_name": "Leonardo",
+        "last_name": "Da Vinci",
+        "handle": "leodavinci",
+        "profile_picture": "https://s.abcnews.com/images/International/Leonardo-da-vinci-file-gty-ml-190502_hpMain_16x9_1600.jpg"
+    },
+    {
+        "id": 6,
+        "first_name": "Claude",
+        "last_name": "Monet",
+        "handle": "claudemonet",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg"
     }
 ]

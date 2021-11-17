@@ -28,8 +28,7 @@
         "likes": "7",
         "comment_username": "salvadordali",
         "comment": "Truly a masterpiece! How is your ear healing by the way?"
-    }
-    ,
+    },
     {
         "id": 4,
         "user": "salvadordali",
@@ -39,5 +38,25 @@
         "likes": "19",
         "comment_username": "edvardmunch",
         "comment": "Proud cat dad"
+    },
+    {
+        "id": 5,
+        "user": "claudemonet",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+        "photo": "https://www.antiquesandthearts.com/wp-content/uploads/2019/10/Claude-Monet-Waterlilies-and-Japanese-Bridge-1899_HIGH-RES.jpg",
+        "description": "I had to paint this because I have no Monet for a camera",
+        "likes": "11",
+        "comment_username": "leodavinci",
+        "comment": "Once I invent the triple barrel canon I'm going to use it on you for writing this pun"
+    },
+    {
+        "id": 6,
+        "user": "leodavinci",
+        "profile_picture": "https://s.abcnews.com/images/International/Leonardo-da-vinci-file-gty-ml-190502_hpMain_16x9_1600.jpg",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "description": "\"Draw me like one of your French girls\" said the Mona Lisa to Leonardo DiCaprio as the Titanic was sinking",
+        "likes": "45",
+        "comment_username": "claudemonet",
+        "comment": "...I don't think that's what happened"
     }
 ]

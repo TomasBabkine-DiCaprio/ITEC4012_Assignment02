@@ -1,5 +1,8 @@
 import "./styles.css";
 
+// Components
+import { ProfilePicture } from "../profile-picture";
+
 export const Story = (props) => {
 
     const {id, profilePicture, handle} = props;
@@ -7,7 +10,7 @@ export const Story = (props) => {
     return (
         <li>
             <div className="userStoryInfo">
-                <img src={profilePicture}></img>
+                <ProfilePicture source={ profilePicture } type="profile_picture stories"></ProfilePicture>
                 <h1>{handle}</h1>
             </div>
         </li>
