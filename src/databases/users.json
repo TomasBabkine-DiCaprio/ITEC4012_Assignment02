@@ -40,5 +40,12 @@
         "last_name": "Monet",
         "handle": "claudemonet",
         "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg"
+    },
+    {
+        "id": 6,
+        "first_name": "Rembrandt",
+        "last_name": "Harmenszoon van Rijn",
+        "handle": "rembrandt",
+        "profile_picture": "https://cdn.britannica.com/82/190482-050-33D2C4C5/Self-Portrait-canvas-Rembrandt-van-Rijn-Washington-DC.jpg"
     }
 ]

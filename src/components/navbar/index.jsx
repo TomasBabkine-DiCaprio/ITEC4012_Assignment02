@@ -28,7 +28,7 @@ export const Navbar = () => {
                 <NavLink to="/"><img src={logo} /></NavLink>
             </div>
             <div className="searchBar">
-                <input type="text" fname="search" placeholder={<AiOutlineSearch size="1.6em" /> + " search"}></input>
+                <input type="text" fname="search" placeholder="search"></input>
             </div>
             <div className="navIcons">
                 <NavLink to="/"><VscHome size="1.6em"/></NavLink>
