@@ -1,11 +1,11 @@
 .profile_picture {
     display: block;
-    margin: 0 auto;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .stories {
+    margin: 0 auto;
     width: 70px;
     height: 70px;
 
@@ -15,11 +15,24 @@
 }
 
 .posts {
+    margin: 0 auto;
     width: 40px;
     height: 40px;
 }
 
 .navPicture {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.homepageProfile {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+}
+
+.recommendation {
     width: 30px;
     height: 30px;
 }

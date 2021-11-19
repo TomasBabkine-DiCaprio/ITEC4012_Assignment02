@@ -2,10 +2,10 @@ import "./styles.css";
 import { useEffect, useState } from 'react';
 
 // Components
-import { Story } from "../story";
+import { Story } from "../Story";
 
 // Import data from "database"
-import userData from "./../../databases/users.json"
+import userData from "../../databases/users.json"
 
 export const StoriesContainer = () => {
 

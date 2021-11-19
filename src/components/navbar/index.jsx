@@ -12,11 +12,13 @@ import { AiOutlineHeart, AiOutlineSearch } from "react-icons/ai";
 import "./styles.css";
 
 // Components
-import { ProfilePicture } from "../profile-picture"
+import { ProfilePicture } from "../Profile-picture";
+
+// Import data pertaining to the owner of the account from "database"
+import data from "../../databases/account-owner.json";
 
 // Images
 const logo = 'https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png';
-const userProfilePicture = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/1200px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg";
 
 export const Navbar = () => {
 
@@ -34,7 +36,7 @@ export const Navbar = () => {
                 <BsPlusSquare size="1.6em" />
                 <ImCompass2 size="1.6em" />
                 <AiOutlineHeart size="1.6em" />
-                <NavLink to="/profile"><ProfilePicture source={userProfilePicture} type="profile_picture navPicture"></ProfilePicture></NavLink>
+                <NavLink to="/profile"><ProfilePicture source={data.profile_picture} type="profile_picture navPicture"></ProfilePicture></NavLink>
             </div>
         </nav>
     );

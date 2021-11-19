@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "handle": "johannesvermeer",
+        "profile_picture": "https://d32dm0rphc51dk.cloudfront.net/8GwoG1yESI0nmANFD16zqg/large.jpg"
+    },
+    {
+        "id": 2,
+        "handle": "sandrobotticelli",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sandro_Botticelli_070.jpg/1200px-Sandro_Botticelli_070.jpg"
+    },
+    {
+        "id": 3,
+        "handle": "janvaneyck",
+        "profile_picture": "https://cdn.britannica.com/w:400,h:300,c:crop/41/189841-050-626E6361/Man-in-a-Turban-Jan-van-Eyck-circa-1433.jpg"
+    },
+    {
+        "id": 4,
+        "handle": "georgesseurat",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg"
+    },
+    {
+        "id": 5,
+        "handle": "edouardmanet",
+        "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/220px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg"
+    }
+]

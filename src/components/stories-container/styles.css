@@ -1,5 +1,5 @@
 .storiesContainer {
-    max-width: 700px;
+    width: 700px;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
     background: white;
     margin: 30px;

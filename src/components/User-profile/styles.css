@@ -1,0 +1,15 @@
+.userProfile {
+    display: inline-flex;
+    align-items: center;
+}
+
+.userProfile .userName h2 {
+    color: black;
+    font-size: 0.8em;
+    margin: 2px 0px 0px 15px;
+}
+
+.userProfile .userName .grey {
+    color: #767676;
+    font-weight: 400;
+}

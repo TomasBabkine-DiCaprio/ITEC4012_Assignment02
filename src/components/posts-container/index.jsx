@@ -1,10 +1,10 @@
 import "./styles.css";
 
 // Components
-import { Post } from "../post";
+import { Post } from "../Post";
 
 // Import post data from "database"
-import postData from "./../../databases/posts.json";
+import postData from "../../databases/posts.json";
 
 export const PostsContainer = () => {
 

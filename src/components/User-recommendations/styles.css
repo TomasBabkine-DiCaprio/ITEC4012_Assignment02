@@ -1,0 +1,19 @@
+.userRecommendationsContainer h1, .userRecommendations h2 {
+    font-size: 0.8em;
+    color: #767676;
+}
+
+.userRecommendationsContainer ul {
+    padding-inline-start: 0px;
+}
+
+.userRecommendations {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userRecommendations h2 {
+    color: black;
+    margin-left: 10px;
+}

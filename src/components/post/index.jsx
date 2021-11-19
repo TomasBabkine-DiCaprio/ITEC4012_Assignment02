@@ -6,7 +6,7 @@ import { FaRegComment } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 
 // Components
-import { ProfilePicture } from "../profile-picture";
+import { ProfilePicture } from "../Profile-picture";
 
 export const Post = (props) => {
 

@@ -1,7 +1,7 @@
 import "./styles.css";
 
 // Components
-import { ProfilePicture } from "../profile-picture";
+import { ProfilePicture } from "../Profile-picture";
 
 export const Story = (props) => {
 

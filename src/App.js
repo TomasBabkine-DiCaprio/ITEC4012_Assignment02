@@ -8,7 +8,7 @@ import {
 
 // Components
 import { HomePage } from './components/pages/home-page';
-import { Navbar } from './components/navbar/index';
+import { Navbar } from './components/Navbar/index';
 
 function App() {
   return (
