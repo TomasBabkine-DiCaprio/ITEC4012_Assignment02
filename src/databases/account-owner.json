@@ -1,7 +1,11 @@
 {
     "id": 1,
-    "first_name": "Salvador",
-    "last_name": "Dali",
-    "handle": "salvadordali",
-    "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/1200px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg"
+    "first_name": "Michelangelo",
+    "last_name": "di Lodovico",
+    "handle": "michelangelo",
+    "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/1200px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+    "numPosts": "5 posts",
+    "numFollowers": "227 followers",
+    "numFollowing": "261 following",
+    "quote": "Paint hard, play hard"
 }

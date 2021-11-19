@@ -8,6 +8,7 @@ import {
 
 // Components
 import { HomePage } from './components/pages/home-page';
+import { ProfilePage } from './components/pages/profile-page';
 import { Navbar } from './components/Navbar/index';
 
 function App() {
@@ -19,7 +20,10 @@ function App() {
         
         <Switch>
           <Route exact path="/">
-          <HomePage></HomePage>
+            <HomePage></HomePage>
+          </Route>
+          <Route exact path="/profile">
+            <ProfilePage></ProfilePage>
           </Route>
         </Switch>
 
