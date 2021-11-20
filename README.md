@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Tomas Babkine-Di Caprio - ITEC4012 - Assignment 01
+For this assignment, students had to clone an existing website using React. I decided to clone Instagram.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I cloned the homepage (/) and the user profile page (/profile).
 
-## Available Scripts
+Use npm start to run the project and click on Michelangelo's profile picture or name to navigate to his profile page. This is the same as using the real Instagram web app. To navigate back to the homepage, click on the Instagram logo.
 
-In the project directory, you can run:
+To simulate the real social network, I populated my Instagram with dummy data. I.e. famous painters of the past centuries. This data is stored under the "databases" folder as JSON files and imported in the components where necessary.
 
-### `npm start`
+## Components
+Here is how I broke up my clone into components, as well as the reason why:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**1. home-page**
+This is a container component that is used by the app.js file. This component is solely used for the purpose simplifying the display of the home page. It renders all the required components for the home page.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**2. profile-page**
+This is a container component that is used by the app.js file. This component is solely used for the purpose simplifying the display of Michelangelo's profile page. It renders all the required components for the profile page.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**3. Hyperlink**
+On Instagram, these links serve many purposes. They are the buttons for posting comments as well as following new users. I decided to create a simple component out of them. They take a text value, as well as a type as props. The type defines the styling of the hyperlink. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**4. Navbar**
+The navbar is found on every page and stays the same throughout the app.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**5. Post**
+Posts are one of the most important components of Instagram. These clearly need to be a component as they are reused a lot throughout the app. These take many props such as: the image, the user who posted, number of likes, etc. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**6. Posts-container**
+This component houses all the individual posts and displays them with appropriate styling. To do this, it maps through an array containing all the fake posts created for this assignment and their required information. Thus, if someone wanted to add a new post to my assignment, they would just have to edit the "posts.json" file in the databases folder. The homepage would then update itself and display the added post.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+**7. Story**
+This component is purely visual and serves no purpose in this assignment. It is there to simulate the individual stories posted by users on Instagram. It displays the profile picture of the fake user who posted a fake story. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**8. Stories-container**
+This component maps through the users.json file in the database and displays all the stories with appropriate styling. For simplicity, it is assumed that every user stored in the database has posted a story, which is rendered by this component.
 
-### Code Splitting
+**9. User-profile**
+This component displays all the information concerning the user (for the purpose of this assignment, Michelangelo). This component is used both on the homepage as well as the profile page. Since, it needs very different styling on both pages, this component takes a page prop which is used to conditionally render the right HTML.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**10. User-posts**
+This is a component that maps through the account-owner-posts.json file and renders fake posts created by the user (Michelangelo).
 
-### Analyzing the Bundle Size
+**11. User-recommendations**
+This component is rendered on the homepage. It contains all of the user recommendations for Michelangelo. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**12. Profile-picture**
+By far, the most common component on the Instagram UI, is the symbolic round user profile picture. This component is used for displaying stories and is found every where a user is mentioned. I decided to make a component for this very specific element as it appears very often on the UI and the styling (namely, the border-radius: 50%;) is fairly similar. For customization, this component takes a "type" prop which defines specific styling, such as the image size as well as its source.
