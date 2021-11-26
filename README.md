@@ -1,4 +1,4 @@
-# Tomas Babkine-Di Caprio - ITEC4012 - Assignment 01
+# Tomas Babkine-Di Caprio - ITEC4012 - Assignment 02
 For this assignment, students had to clone an existing website using React. I decided to clone Instagram.
 
 I cloned the homepage (/) and the user profile page (/profile).
